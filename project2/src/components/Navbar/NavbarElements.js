@@ -15,6 +15,7 @@ export const Nav = styled.nav`
 
 export const NavLink = styled(Link)`
   color: #000;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -58,6 +59,7 @@ export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
   margin-right: 24px;
+  font-size: 1.2rem;
   /* Third Nav */
   /* justify-content: flex-end;
   width: 100vw; */

@@ -1,10 +1,11 @@
 import React from 'react';
+import StockChart from '../components/StockChart';
 
 const Analyser = () => {
   return (
-    <div>
-      <h1>Analyser</h1>
-    </div>
+    <>
+      <StockChart/>
+    </>
   );
 };
 
