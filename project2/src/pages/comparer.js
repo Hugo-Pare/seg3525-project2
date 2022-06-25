@@ -1,10 +1,15 @@
 import React from 'react';
+import StockComparison from '../components/StockComparison';
 
 const Comparer = () => {
   return (
-    <div>
-      <h1>Comparer</h1>
-    </div>
+    <>
+      <div className='title'>
+        <h1>Comparer</h1>
+      </div>
+      <StockComparison/>
+    </>
+    
   );
 };
 

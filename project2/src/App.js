@@ -9,7 +9,7 @@ import Comparer from './pages/comparer';
 import Analyser from './pages/analyser';
 import Rechercher from './pages/rechercher';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Navbar />

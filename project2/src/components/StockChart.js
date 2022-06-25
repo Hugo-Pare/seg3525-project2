@@ -49,15 +49,19 @@ class StockChart extends Component{
                         </div>
 
                         <div className="intervalButtons">
-                                <IntervalButton type="submit" onClick={(e) => this.handleInterval(e, "2mo")}>{this.state.interval === '2mo' 
+                                <IntervalButton type="submit">{this.state.interval === '2mo' 
                                 ? <b className="boldIntervalButton">2M</b> : <div>2M</div>}</IntervalButton>
-                                <IntervalButton type="submit" onClick={(e) => this.handleInterval(e, "6mo")}>{this.state.interval === '6mo' 
+
+                                <IntervalButton type="submit">{this.state.interval === '6mo' 
                                 ? <b className="boldIntervalButton">6M</b> : <div>6M</div>}</IntervalButton> 
-                                <IntervalButton type="submit" onClick={(e) => this.handleInterval(e, "1y")}>{this.state.interval === '1y' 
+
+                                <IntervalButton type="submit">{this.state.interval === '1y' 
                                 ? <b className="boldIntervalButton">1Y</b> : <div>1Y</div>}</IntervalButton>
-                                <IntervalButton type="submit" onClick={(e) => this.handleInterval(e, "5y")}>{this.state.interval === '5y' 
+
+                                <IntervalButton type="submit">{this.state.interval === '5y' 
                                 ? <b className="boldIntervalButton">5Y</b> : <div>5Y</div>}</IntervalButton> 
-                                <IntervalButton type="submit" onClick={(e) => this.handleInterval(e, "10y")}>{this.state.interval === '10y' 
+
+                                <IntervalButton type="submit">{this.state.interval === '10y' 
                                 ? <b className="boldIntervalButton">10Y</b> : <div>10Y</div>}</IntervalButton> 
                             </div>
                     </form>

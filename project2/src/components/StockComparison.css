@@ -1,0 +1,65 @@
+* {
+    font-family: 'Sora', sans-serif;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+li{
+    margin-top: 12px;
+}
+
+.container {
+    display: table;
+    width: 100%;
+    padding: 0.5%;
+
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+  
+.container-box {
+    display: table-cell;
+    height: 90%;
+}
+
+.container-box:nth-child(1){
+    width: 15%;
+    border-style: solid;
+    text-align: center;
+    padding-left: 1%;
+}
+
+.container-box:nth-child(2){
+    width: 23%;
+    text-align: center;
+}
+
+.container-box:nth-child(3){
+    width: 23%;
+    text-align: center;
+}
+
+.container-box:nth-child(4){
+    width: 23%;
+    text-align: center;
+}
+
+.empty-space{
+    padding-top: 20%;
+}
+
+.list-metrics{
+    padding-top: 15%;
+    padding-bottom: 10%;
+    list-style-type: none;
+    text-align: left;
+}
+
+.input{
+    box-sizing: border-box;
+    padding: 4px 0px;
+    margin: 2px;
+    font-size: 1.2rem;
+}
