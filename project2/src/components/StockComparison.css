@@ -2,12 +2,37 @@
     font-family: 'Sora', sans-serif;
 }
 
+button{
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    border-style: none;
+    background: #ff3333;
+    margin-left: 1%;
+}
+
+button:hover{
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: #e60000;
+    transition: 250ms;
+    color:#000;
+}
+
 label {
     font-size: 1.2rem;
 }
 
 li{
     margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+ul{
+    border-style: solid;
+    padding-left: 1%;
+    border-color: #004D1A;
+    border-width: 6px;
 }
 
 .container {
@@ -26,35 +51,51 @@ li{
 
 .container-box:nth-child(1){
     width: 15%;
-    border-style: solid;
     text-align: center;
-    padding-left: 1%;
 }
 
 .container-box:nth-child(2){
-    width: 23%;
+    width: 22%;
     text-align: center;
 }
 
 .container-box:nth-child(3){
-    width: 23%;
+    width: 22%;
     text-align: center;
 }
 
 .container-box:nth-child(4){
-    width: 23%;
+    width: 22%;
     text-align: center;
 }
 
 .empty-space{
-    padding-top: 20%;
+    padding-top: 15%;
+}
+
+.empty-space-1{
+    padding-top: 8.8%;
+}
+
+.empty-space-2{
+    padding-top: 10.2%;
 }
 
 .list-metrics{
-    padding-top: 15%;
-    padding-bottom: 10%;
     list-style-type: none;
     text-align: left;
+}
+
+.list-metrics-company{
+    list-style: none;
+    text-align: center;
+    background-color: #cccccc;
+    border-style: none;
+    border-radius: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .input{

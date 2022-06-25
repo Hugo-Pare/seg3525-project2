@@ -39,7 +39,7 @@ class StockChart extends Component{
                     <form onSubmit={(e) => {this.handleSubmit(e)}}>
                         <label className="ticker">Stock ticker :</label>
                         <input className="input" onChange={this.handleChange}></input>
-                        <Button type="submit" >
+                        <Button type="submit">
                             Find
                         </Button>
                         <div>
