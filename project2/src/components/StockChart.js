@@ -16,29 +16,14 @@ class StockChart extends Component{
         }
     }
 
-    isValidTicker(){
-        return true;
-    }
-
-    handleSubmit(e) {
-        this.setState({ticker: e.target.value});
-        console.log("ticker sumbitted : " + e.target.value);
-    }
-
-    handleChange(e){
-        console.log(e.target.value);
-    }
-
     render(){
-
-        const validTicker = this.isValidTicker();
 
         return(
             <>
                 <div className="stock-finder">
-                    <form onSubmit={(e) => {this.handleSubmit(e)}}>
+                    <form>
                         <label className="ticker">Stock ticker :</label>
-                        <input className="input" onChange={this.handleChange}></input>
+                        <input className="input"></input>
                         <Button type="submit">
                             Find
                         </Button>
@@ -49,14 +34,11 @@ class StockChart extends Component{
                         </div>
 
                         <div className="intervalButtons">
-                                <IntervalButton type="submit">{this.state.interval === '1m' 
-                                ? <b className="boldIntervalButton">1m</b> : <div>1m</div>}</IntervalButton>
+                                <IntervalButton type="submit">1m</IntervalButton>
 
-                                <IntervalButton type="submit">{this.state.interval === '3m' 
-                                ? <b className="boldIntervalButton">3m</b> : <div>3m</div>}</IntervalButton> 
+                                <IntervalButton type="submit">3m</IntervalButton> 
 
-                                <IntervalButton type="submit">{this.state.interval === '6m' 
-                                ? <b className="boldIntervalButton">6m</b> : <div>6m</div>}</IntervalButton> 
+                                <IntervalButton type="submit">6m</IntervalButton> 
                             </div>
                     </form>
                 </div>
