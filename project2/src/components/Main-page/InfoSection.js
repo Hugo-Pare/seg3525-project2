@@ -6,22 +6,25 @@ import InstructionSteps from "./InstructionSteps";
 // eslint-disable-next-line no-undef
 class InfoSection extends Component{
 
-    constructor(props){
-        super(props);
-        this.state = {}
-    }
-
     render(){
         return(
             <>
                 <div className="infosection-title">
-                    Information
+                    <b>Introduction</b>
                 </div>
                 <div className="infosection-description">
-                    &emsp;Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                    &emsp;&emsp;Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
                     Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
                 </div>
                 <InstructionSteps/>
+                <div className="infosection-description">
+                    &emsp;&emsp;Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                    Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                    <br/>
+                    <br/>
+                    &emsp;&emsp;Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                    Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                </div>
             </>
         )
     }

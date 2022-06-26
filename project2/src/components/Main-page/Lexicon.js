@@ -14,14 +14,14 @@ class Lexicon extends Component{
         return(
             <>
                 <div className="lexicon-title">
-                    Lexique
+                    <b>Lexique</b>
                 </div>
                 <div className="lexicon-description">
-                    &emsp;Voici les définitions de plusieurs termes de finances. Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                    &emsp;&emsp;Voici les définitions de plusieurs termes de finances. Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
                     Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
                     <br/>
                     <br/>
-                    &emsp;Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                    &emsp;&emsp;Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
                     Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
                 </div>
                 <div className="lexicon-list">
