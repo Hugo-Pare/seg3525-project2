@@ -1,15 +1,15 @@
 {
-  "main.css": "/seg3525-project2/home/static/css/main.79d4fce4.chunk.css",
-  "main.js": "/seg3525-project2/home/static/js/main.5ddcf7e2.chunk.js",
-  "main.js.map": "/seg3525-project2/home/static/js/main.5ddcf7e2.chunk.js.map",
-  "runtime~main.js": "/seg3525-project2/home/static/js/runtime~main.dda988dd.js",
-  "runtime~main.js.map": "/seg3525-project2/home/static/js/runtime~main.dda988dd.js.map",
-  "static/js/2.5196fb95.chunk.js": "/seg3525-project2/home/static/js/2.5196fb95.chunk.js",
-  "static/js/2.5196fb95.chunk.js.map": "/seg3525-project2/home/static/js/2.5196fb95.chunk.js.map",
-  "static/js/3.859f812d.chunk.js": "/seg3525-project2/home/static/js/3.859f812d.chunk.js",
-  "static/js/3.859f812d.chunk.js.map": "/seg3525-project2/home/static/js/3.859f812d.chunk.js.map",
-  "index.html": "/seg3525-project2/home/index.html",
-  "precache-manifest.626948190140af7fd61e9262afa84cd8.js": "/seg3525-project2/home/precache-manifest.626948190140af7fd61e9262afa84cd8.js",
-  "service-worker.js": "/seg3525-project2/home/service-worker.js",
-  "static/css/main.79d4fce4.chunk.css.map": "/seg3525-project2/home/static/css/main.79d4fce4.chunk.css.map"
+  "main.css": "/seg3525-project2/static/css/main.79d4fce4.chunk.css",
+  "main.js": "/seg3525-project2/static/js/main.5ddcf7e2.chunk.js",
+  "main.js.map": "/seg3525-project2/static/js/main.5ddcf7e2.chunk.js.map",
+  "runtime~main.js": "/seg3525-project2/static/js/runtime~main.b4cd083f.js",
+  "runtime~main.js.map": "/seg3525-project2/static/js/runtime~main.b4cd083f.js.map",
+  "static/js/2.c39930b3.chunk.js": "/seg3525-project2/static/js/2.c39930b3.chunk.js",
+  "static/js/2.c39930b3.chunk.js.map": "/seg3525-project2/static/js/2.c39930b3.chunk.js.map",
+  "static/js/3.859f812d.chunk.js": "/seg3525-project2/static/js/3.859f812d.chunk.js",
+  "static/js/3.859f812d.chunk.js.map": "/seg3525-project2/static/js/3.859f812d.chunk.js.map",
+  "index.html": "/seg3525-project2/index.html",
+  "precache-manifest.bd74ca887b01d8e9990070425488feab.js": "/seg3525-project2/precache-manifest.bd74ca887b01d8e9990070425488feab.js",
+  "service-worker.js": "/seg3525-project2/service-worker.js",
+  "static/css/main.79d4fce4.chunk.css.map": "/seg3525-project2/static/css/main.79d4fce4.chunk.css.map"
 }
