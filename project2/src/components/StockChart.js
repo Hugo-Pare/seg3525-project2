@@ -49,20 +49,20 @@ class StockChart extends Component{
                         </div>
 
                         <div className="intervalButtons">
-                                <IntervalButton type="submit">{this.state.interval === '2mo' 
-                                ? <b className="boldIntervalButton">2M</b> : <div>2M</div>}</IntervalButton>
+                                <IntervalButton type="submit">{this.state.interval === '1d' 
+                                ? <b className="boldIntervalButton">1d</b> : <div>1d</div>}</IntervalButton>
 
-                                <IntervalButton type="submit">{this.state.interval === '6mo' 
-                                ? <b className="boldIntervalButton">6M</b> : <div>6M</div>}</IntervalButton> 
+                                <IntervalButton type="submit">{this.state.interval === '5d' 
+                                ? <b className="boldIntervalButton">5d</b> : <div>5d</div>}</IntervalButton> 
+
+                                <IntervalButton type="submit">{this.state.interval === '1m' 
+                                ? <b className="boldIntervalButton">1m</b> : <div>1m</div>}</IntervalButton>
+
+                                <IntervalButton type="submit">{this.state.interval === '6m' 
+                                ? <b className="boldIntervalButton">6m</b> : <div>6m</div>}</IntervalButton> 
 
                                 <IntervalButton type="submit">{this.state.interval === '1y' 
-                                ? <b className="boldIntervalButton">1Y</b> : <div>1Y</div>}</IntervalButton>
-
-                                <IntervalButton type="submit">{this.state.interval === '5y' 
-                                ? <b className="boldIntervalButton">5Y</b> : <div>5Y</div>}</IntervalButton> 
-
-                                <IntervalButton type="submit">{this.state.interval === '10y' 
-                                ? <b className="boldIntervalButton">10Y</b> : <div>10Y</div>}</IntervalButton> 
+                                ? <b className="boldIntervalButton">1y</b> : <div>1y</div>}</IntervalButton> 
                             </div>
                     </form>
                 </div>

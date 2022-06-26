@@ -2,6 +2,7 @@
 import React, { Component } from "react"
 import { Button } from './Button'
 import './StockComparison.css'
+import ReactTooltip from 'react-tooltip';
 
 // eslint-disable-next-line no-undef
 class StockComparison extends Component{

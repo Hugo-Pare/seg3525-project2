@@ -1,9 +1,10 @@
 import React from 'react';
+import FilterRearch from '../components/FilterResearch';
 
 const Rechercher = () => {
   return (
     <div>
-      <h1>Rechercher</h1>
+      <FilterRearch/>
     </div>
   );
 };
