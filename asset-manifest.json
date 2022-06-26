@@ -1,7 +1,7 @@
 {
   "main.css": "/seg3525-project2/static/css/main.553aaa4d.chunk.css",
-  "main.js": "/seg3525-project2/static/js/main.fcb409b7.chunk.js",
-  "main.js.map": "/seg3525-project2/static/js/main.fcb409b7.chunk.js.map",
+  "main.js": "/seg3525-project2/static/js/main.27a956ff.chunk.js",
+  "main.js.map": "/seg3525-project2/static/js/main.27a956ff.chunk.js.map",
   "runtime~main.js": "/seg3525-project2/static/js/runtime~main.5b7a8e5e.js",
   "runtime~main.js.map": "/seg3525-project2/static/js/runtime~main.5b7a8e5e.js.map",
   "static/js/2.9aa59bf6.chunk.js": "/seg3525-project2/static/js/2.9aa59bf6.chunk.js",
@@ -9,7 +9,7 @@
   "static/js/3.7dc7df72.chunk.js": "/seg3525-project2/static/js/3.7dc7df72.chunk.js",
   "static/js/3.7dc7df72.chunk.js.map": "/seg3525-project2/static/js/3.7dc7df72.chunk.js.map",
   "index.html": "/seg3525-project2/index.html",
-  "precache-manifest.5862d3880678eb44a0a2ef4ecb6e5686.js": "/seg3525-project2/precache-manifest.5862d3880678eb44a0a2ef4ecb6e5686.js",
+  "precache-manifest.2db1daf29cd93d2cd4c39edb5a428667.js": "/seg3525-project2/precache-manifest.2db1daf29cd93d2cd4c39edb5a428667.js",
   "service-worker.js": "/seg3525-project2/service-worker.js",
   "static/css/main.553aaa4d.chunk.css.map": "/seg3525-project2/static/css/main.553aaa4d.chunk.css.map"
 }
