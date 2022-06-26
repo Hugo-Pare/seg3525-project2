@@ -12,23 +12,23 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to='/seg3525-project2/home'>
+        <NavLink to='/seg3525-project2'>
           Guide de l'investisseur
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to='/seg3525-project2/about' activestyle={null}>
+          <NavLink to='/about' activestyle={null}>
             À propos
           </NavLink>
-          <NavLink to='/seg3525-project2/analyser' activestyle={null}>
+          <NavLink to='/analyser' activestyle={null}>
             Analyser
           </NavLink>
-          <NavLink to='/seg3525-project2/comparer' activestyle={null}>
+          <NavLink to='/comparer' activestyle={null}>
             Comparer
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to='/seg3525-project2/rechercher'>Rechercher</NavBtnLink>
+          <NavBtnLink to='/rechercher'>Rechercher</NavBtnLink>
         </NavBtn>
       </Nav>
     </>

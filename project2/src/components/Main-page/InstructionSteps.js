@@ -1,0 +1,90 @@
+// eslint-disable-next-line no-undef
+import React, { Component } from "react"
+import './InstructionSteps.css'
+
+import InstructionDetails from "./InstructionDetails";
+
+// eslint-disable-next-line no-undef
+class InstructionSteps extends Component{
+
+    constructor(props){
+        super(props);
+        this.state = {
+            currentInstruction: 1
+        }
+    }
+
+    clickedInstruction1(e){
+        e.preventDefault();
+        console.log('clicked add 1');
+        this.setState({currentInstruction: 1});
+    }
+
+    clickedInstruction2(e){
+        e.preventDefault();
+        console.log('clicked add 2');
+        this.setState({currentInstruction: 2});
+    }
+
+    clickedInstruction3(e){
+        e.preventDefault();
+        console.log('clicked add 3');
+        this.setState({currentInstruction: 3});
+    }
+
+    clickedInstruction4(e){
+        e.preventDefault();
+        console.log('clicked add 4');
+        this.setState({currentInstruction: 4});
+    }
+
+    render(){
+
+        const instructionNumber = this.state.currentInstruction;
+
+        return(
+            <>
+                <div className="instruction-steps-container">
+                    <a className="instruction-box" onClick={(e) => this.clickedInstruction1(e)}>
+                        <div className={instructionNumber == 1 ? "instruction-bubble-current" : "instruction-bubble"}>
+                            <div className="bubble-number">1</div>
+                        </div>
+                        <div className="instruction-title">
+                            Instruction 1
+                        </div>
+                    </a>
+                    <a className="instruction-box" onClick={(e) => this.clickedInstruction2(e)}>
+                        <div className={instructionNumber == 2 ? "instruction-bubble-current" : "instruction-bubble"}>
+                            <div className="bubble-number">2</div>
+                        </div>
+                        <div className="instruction-title">
+                            Instruction 2
+                        </div>
+                    </a>
+                    <div className="instruction-box" onClick={(e) => this.clickedInstruction3(e)}>
+                        <div className={instructionNumber == 3 ? "instruction-bubble-current" : "instruction-bubble"}>
+                            <div className="bubble-number">3</div>
+                        </div>
+                        <div className="instruction-title">
+                            Instruction 3
+                        </div>
+                    </div>
+                    <div className="instruction-box" onClick={(e) => this.clickedInstruction4(e)}>
+                        <div className={instructionNumber == 4 ? "instruction-bubble-current" : "instruction-bubble"}>
+                            <div className="bubble-number">4</div>
+                        </div>
+                        <div className="instruction-title">
+                            Instruction 4
+                        </div>
+                    </div>
+                </div>
+                <div className="instruction-description">
+                    <InstructionDetails
+                        instructionNumber={instructionNumber}/>
+                </div>
+            </>
+        )
+    }
+}
+
+export default InstructionSteps;

@@ -1,0 +1,19 @@
+
+.container-main-page{
+    display: flex;
+}
+
+.column-info-section{
+    text-align: center;
+    flex: 50%;
+}
+
+.column-lexicon{
+    flex: 50%;
+    text-align: center;
+}
+
+
+.home-title{
+    text-align: center;
+}

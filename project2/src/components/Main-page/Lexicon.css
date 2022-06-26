@@ -1,0 +1,26 @@
+
+.lexicon-box{
+    background-color: #b3b3b3;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5px;
+
+    text-align: justify;
+    padding: 10px;
+}
+
+.lexicon-description{
+    text-align: justify;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.lexicon-list{
+    padding-top: 2%;
+}
+
+.lexicon-title{
+    font-size: 1.5rem;
+}

@@ -49,20 +49,14 @@ class StockChart extends Component{
                         </div>
 
                         <div className="intervalButtons">
-                                <IntervalButton type="submit">{this.state.interval === '1d' 
-                                ? <b className="boldIntervalButton">1d</b> : <div>1d</div>}</IntervalButton>
-
-                                <IntervalButton type="submit">{this.state.interval === '5d' 
-                                ? <b className="boldIntervalButton">5d</b> : <div>5d</div>}</IntervalButton> 
-
                                 <IntervalButton type="submit">{this.state.interval === '1m' 
                                 ? <b className="boldIntervalButton">1m</b> : <div>1m</div>}</IntervalButton>
 
+                                <IntervalButton type="submit">{this.state.interval === '3m' 
+                                ? <b className="boldIntervalButton">3m</b> : <div>3m</div>}</IntervalButton> 
+
                                 <IntervalButton type="submit">{this.state.interval === '6m' 
                                 ? <b className="boldIntervalButton">6m</b> : <div>6m</div>}</IntervalButton> 
-
-                                <IntervalButton type="submit">{this.state.interval === '1y' 
-                                ? <b className="boldIntervalButton">1y</b> : <div>1y</div>}</IntervalButton> 
                             </div>
                     </form>
                 </div>

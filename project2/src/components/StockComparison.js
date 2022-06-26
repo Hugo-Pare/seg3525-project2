@@ -65,7 +65,7 @@ class StockComparison extends Component{
             <>
                 <div className="container">
                     <div className="container-box">
-                        <label><b>Stock information</b></label>
+                        <label className="title-comparison"><b>Stock information</b></label>
 
                         <div className="empty-space"></div>
 
