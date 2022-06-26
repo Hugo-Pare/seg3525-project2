@@ -29,37 +29,37 @@ class FilterResearch extends Component{
 
                             <div className="empty-space-1"></div>
                             
-                            <input type="checkbox"></input>
+                            <input type="checkbox" checked="false"></input>
                             <label className="option">Information Technology</label><br/>
 
-                            <input type="checkbox"></input>
+                            <input type="checkbox" checked="false"></input>
                             <label className="option">Health Care</label><br/>
 
-                            <input type="checkbox"></input>
+                            <input type="checkbox" checked="false"></input>
                             <label className="option">Financials</label><br/>
 
-                            <input type="checkbox"></input>
+                            <input type="checkbox" checked="false"></input>
                             <label className="option">Consumer Discretionary</label><br/>
 
-                            <input type="checkbox"></input>
+                            <input type="checkbox" checked="false"></input>
                             <label className="option">Communication Services</label><br/>
 
-                            <input type="checkbox"></input>
+                            <input type="checkbox" checked="false"></input>
                             <label className="option">Industrials</label><br/>
 
-                            <input type="checkbox"></input>
+                            <input type="checkbox" checked="false"></input>
                             <label className="option">Consumer Staples</label><br/>
 
-                            <input type="checkbox"></input>
+                            <input type="checkbox" checked="false"></input>
                             <label className="option">Energy</label><br/>
 
-                            <input type="checkbox"></input>
+                            <input type="checkbox" checked="false"></input>
                             <label className="option">Utilities</label><br/>
 
-                            <input type="checkbox"></input>
+                            <input type="checkbox" checked="false"></input>
                             <label className="option">Real Estate</label><br/>
 
-                            <input type="checkbox"></input>
+                            <input type="checkbox" checked="false"></input>
                             <label className="option">Materials</label><br/>
 
                             <div className="empty-space"></div>
@@ -68,10 +68,10 @@ class FilterResearch extends Component{
 
                             <div className="empty-space-1"></div>
 
-                            <input type="checkbox"></input>
+                            <input type="checkbox" checked="false"></input>
                             <label className="option">US</label><br/>
 
-                            <input type="checkbox"></input>
+                            <input type="checkbox" checked="false"></input>
                             <label className="option">CAN</label><br/>
                         </form>
                     </div>
