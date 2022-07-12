@@ -5,8 +5,7 @@ import Lexicon from '../components/Main-page/Lexicon';
 
 const Home = () => {
   return (
-    <div>
-      <h1 className='home-title'>Guide de l'investisseur</h1>
+    <div className='home-title'>
 
       <div className='container-main-page'>
         <div className='column-info-section'>

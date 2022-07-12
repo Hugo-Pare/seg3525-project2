@@ -10,7 +10,7 @@ class InfoSection extends Component{
         return(
             <>
                 <div className="infosection-title">
-                    <b>Introduction</b>
+                    <b>Guide de l'investisseur</b>
                 </div>
                 <div className="infosection-description">
                     &emsp;&emsp;Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah

@@ -46,7 +46,7 @@ class InstructionSteps extends Component{
             <>
                 <div className="instruction-steps-container">
                     <a className="instruction-box" onClick={(e) => this.clickedInstruction1(e)}>
-                        <div className={instructionNumber == 1 ? "instruction-bubble-current" : "instruction-bubble"}>
+                        <div className={instructionNumber === 1 ? "instruction-bubble-current" : "instruction-bubble"}>
                             <div className="bubble-number">1</div>
                         </div>
                         <div className="instruction-title">
@@ -54,7 +54,7 @@ class InstructionSteps extends Component{
                         </div>
                     </a>
                     <a className="instruction-box" onClick={(e) => this.clickedInstruction2(e)}>
-                        <div className={instructionNumber == 2 ? "instruction-bubble-current" : "instruction-bubble"}>
+                        <div className={instructionNumber === 2 ? "instruction-bubble-current" : "instruction-bubble"}>
                             <div className="bubble-number">2</div>
                         </div>
                         <div className="instruction-title">
@@ -62,7 +62,7 @@ class InstructionSteps extends Component{
                         </div>
                     </a>
                     <div className="instruction-box" onClick={(e) => this.clickedInstruction3(e)}>
-                        <div className={instructionNumber == 3 ? "instruction-bubble-current" : "instruction-bubble"}>
+                        <div className={instructionNumber === 3 ? "instruction-bubble-current" : "instruction-bubble"}>
                             <div className="bubble-number">3</div>
                         </div>
                         <div className="instruction-title">
@@ -70,7 +70,7 @@ class InstructionSteps extends Component{
                         </div>
                     </div>
                     <div className="instruction-box" onClick={(e) => this.clickedInstruction4(e)}>
-                        <div className={instructionNumber == 4 ? "instruction-bubble-current" : "instruction-bubble"}>
+                        <div className={instructionNumber === 4 ? "instruction-bubble-current" : "instruction-bubble"}>
                             <div className="bubble-number">4</div>
                         </div>
                         <div className="instruction-title">

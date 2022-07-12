@@ -2,7 +2,7 @@
 import React, { Component } from "react"
 import { Button } from './Button'
 import './StockComparison.css'
-import ReactTooltip from 'react-tooltip';
+import { data } from '../data.js'
 
 // eslint-disable-next-line no-undef
 class StockComparison extends Component{
@@ -11,10 +11,67 @@ class StockComparison extends Component{
         super(props);
         this.state = {
             ticker1: '',
+            stats1 : {
+                companyName: '',
+                weekRange: '',
+                prevClose: '',
+                open: '',
+                ask: '',
+                bid: '',
+                dayRange: '',
+                targetEst: '',
+                avgVol: '',
+                vol: '',
+                marketCap: '',
+                eps: '',
+                forwardDividend: '',
+                peRatio: '',
+                beta: '',
+                earningsDate: '',
+                exDividendDate: ''
+            },
             stock1: false,
             ticker2: '',
+            stats2 : {
+                companyName: '',
+                weekRange: '',
+                prevClose: '',
+                open: '',
+                ask: '',
+                bid: '',
+                dayRange: '',
+                targetEst: '',
+                avgVol: '',
+                vol: '',
+                marketCap: '',
+                eps: '',
+                forwardDividend: '',
+                peRatio: '',
+                beta: '',
+                earningsDate: '',
+                exDividendDate: ''
+            },
             stock2: false,
             ticker3: '',
+            stats3 : {
+                companyName: '',
+                weekRange: '',
+                prevClose: '',
+                open: '',
+                ask: '',
+                bid: '',
+                dayRange: '',
+                targetEst: '',
+                avgVol: '',
+                vol: '',
+                marketCap: '',
+                eps: '',
+                forwardDividend: '',
+                peRatio: '',
+                beta: '',
+                earningsDate: '',
+                exDividendDate: ''
+            },
             stock3: false
         }
     }
@@ -135,9 +192,8 @@ class StockComparison extends Component{
                                 <label>Stock ticker : </label>
                                 <select className="input">
                                     <option value="null"></option>
-                                    <option value="AQN.TO">AQN.TO</option>
-                                    <option value="ENB.TO">ENB.TO</option>
-                                    <option value="SU.TO">SU.TO</option>
+                                    <option value="AAPL">AAPL</option>
+                                    <option value="MSFT">MSFT</option>
                                 </select>
                                 <Button type="submit">
                                     Add
@@ -188,9 +244,8 @@ class StockComparison extends Component{
                                 <label>Stock ticker : </label>
                                 <select className="input">
                                     <option></option>
-                                    <option>AQN.TO</option>
-                                    <option>ENB.TO</option>
-                                    <option>SU.TO</option>
+                                    <option value="AAPL">AAPL</option>
+                                    <option value="MSFT">MSFT</option>
                                 </select>
                                 <Button value="clickedAdd2" type="submit">
                                     Add
@@ -240,9 +295,8 @@ class StockComparison extends Component{
                                 <label>Stock ticker : </label>
                                 <select className="input">
                                     <option></option>
-                                    <option>AQN.TO</option>
-                                    <option>ENB.TO</option>
-                                    <option>SU.TO</option>
+                                    <option value="AAPL">AAPL</option>
+                                    <option value="MSFT">MSFT</option>
                                 </select>
                                 <Button value="clickedAdd3" type="submit">
                                     Add

@@ -1,4 +1,9 @@
 
+
+.blank{
+    padding-top: 25px;
+}
+
 .boldIntervalButton {
     font-weight: 900;
 }
@@ -86,4 +91,9 @@ p {
 .ticker {
     margin: 2px;
     font-family: 'Sora', sans-serif;
+}
+
+.ticker-error{
+    color: red;
+    padding-left: 7%;
 }
