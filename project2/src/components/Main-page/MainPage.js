@@ -46,6 +46,7 @@ class MainPage extends Component{
                         English
                         </div>
                     </button>}
+                </div>
 
                 <div className='empty-space-language'></div>
                     
@@ -69,7 +70,7 @@ class MainPage extends Component{
                             </div>
                         </>}
                     </div>
-                </div> 
+                
             </>
         )
     }

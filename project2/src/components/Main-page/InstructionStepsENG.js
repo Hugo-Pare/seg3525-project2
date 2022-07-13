@@ -2,10 +2,10 @@
 import React, { Component } from "react"
 import './InstructionSteps.css'
 
-import InstructionDetails from "./InstructionDetails";
+import InstructionDetailsENG from "./InstructionDetailsENG";
 
 // eslint-disable-next-line no-undef
-class InstructionSteps extends Component{
+class InstructionStepsENG extends Component{
 
     constructor(props){
         super(props);
@@ -50,7 +50,7 @@ class InstructionSteps extends Component{
                             <div className="bubble-number">1</div>
                         </div>
                         <div className="instruction-title">
-                            Instruction 1
+                            <b>Getting Started</b>
                         </div>
                     </a>
                     <a className="instruction-box" onClick={(e) => this.clickedInstruction2(e)}>
@@ -58,7 +58,7 @@ class InstructionSteps extends Component{
                             <div className="bubble-number">2</div>
                         </div>
                         <div className="instruction-title">
-                            Instruction 2
+                            <b>Setting Goals</b>
                         </div>
                     </a>
                     <div className="instruction-box" onClick={(e) => this.clickedInstruction3(e)}>
@@ -66,7 +66,7 @@ class InstructionSteps extends Component{
                             <div className="bubble-number">3</div>
                         </div>
                         <div className="instruction-title">
-                            Instruction 3
+                            <b>Building Foundation</b>
                         </div>
                     </div>
                     <div className="instruction-box" onClick={(e) => this.clickedInstruction4(e)}>
@@ -74,12 +74,12 @@ class InstructionSteps extends Component{
                             <div className="bubble-number">4</div>
                         </div>
                         <div className="instruction-title">
-                            Instruction 4
+                            <b>Managing</b>
                         </div>
                     </div>
                 </div>
                 <div className="instruction-description">
-                    <InstructionDetails
+                    <InstructionDetailsENG
                         instructionNumber={instructionNumber}/>
                 </div>
             </>
@@ -87,4 +87,4 @@ class InstructionSteps extends Component{
     }
 }
 
-export default InstructionSteps;
+export default InstructionStepsENG;

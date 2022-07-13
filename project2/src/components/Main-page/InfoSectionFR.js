@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-undef
 import React, { Component } from "react"
 import './InfoSection.css'
-import InstructionSteps from "./InstructionSteps";
+import InstructionStepsFR from "./InstructionStepsFR";
 
 // eslint-disable-next-line no-undef
 class InfoSectionFR extends Component{
@@ -18,15 +18,7 @@ class InfoSectionFR extends Component{
                     <br/>
                     &emsp;&emsp;La volatilité des marchés financiers combinée à l’aspect humain rendent très difficile la prise de bonnes décisions.  Les investisseurs qui ont plus de succès sont très disciplinés et ils s’assurent de suivre à la lettre leur propre plan d’action préétabli.
                 </div>
-                <InstructionSteps/>
-                <div className="infosection-description">
-                    &emsp;&emsp;Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
-                    Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
-                    <br/>
-                    <br/>
-                    &emsp;&emsp;Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
-                    Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
-                </div>
+                <InstructionStepsFR/>
             </>
         )
     }
