@@ -3,7 +3,7 @@ import React, { Component } from "react"
 import './Lexicon.css'
 
 // eslint-disable-next-line no-undef
-class Lexicon extends Component{
+class LexiconFR extends Component{
 
     constructor(props){
         super(props);
@@ -165,4 +165,4 @@ class Lexicon extends Component{
     }
 }
 
-export default Lexicon;
+export default LexiconFR;

@@ -1,22 +1,11 @@
 import React from 'react';
 import '../styles/index.css'
-import InfoSection from '../components/Main-page/InfoSection';
-import Lexicon from '../components/Main-page/Lexicon';
+import MainPage from '../components/Main-page/MainPage';
 
 const Home = () => {
+
   return (
-    <div className='home-title'>
-
-      <div className='container-main-page'>
-        <div className='column-info-section'>
-          <InfoSection/>
-        </div>
-
-        <div className='column-lexicon'>
-          <Lexicon/>
-        </div>
-      </div>
-    </div>
+    <MainPage/>
   );
 };
 

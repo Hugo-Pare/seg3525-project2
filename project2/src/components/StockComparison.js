@@ -88,7 +88,7 @@ class StockComparison extends Component{
 
         this.setState({stock1: true});
 
-        const tickerList = ["AAPL","MSFT"]
+        const tickerList = ["AAPL","KO","MSFT","RY.TO","SHOP.TO"]
         const ticker = this.state.ticker1;
         console.log(ticker)
 
@@ -142,7 +142,7 @@ class StockComparison extends Component{
 
         this.setState({stock2: true});
 
-        const tickerList = ["AAPL","MSFT"]
+        const tickerList = ["AAPL","KO","MSFT","RY.TO","SHOP.TO"]
         const ticker = this.state.ticker2;
         console.log(ticker)
 
@@ -196,7 +196,7 @@ class StockComparison extends Component{
 
         this.setState({stock3: true});
 
-        const tickerList = ["AAPL","MSFT"]
+        const tickerList = ["AAPL","KO","MSFT","RY.TO","SHOP.TO"]
         const ticker = this.state.ticker3;
         console.log(ticker)
 
@@ -467,7 +467,10 @@ class StockComparison extends Component{
                                 <select className="input" onChange={this.handleChange1}>
                                     <option value="null"></option>
                                     <option value="AAPL">AAPL</option>
+                                    <option value="KO">KO</option>
                                     <option value="MSFT">MSFT</option>
+                                    <option value="RY.TO">RY.TO</option>
+                                    <option value="SHOP.TO">SHOP.TO</option>
                                 </select>
                                 <Button type="submit">
                                     Add
@@ -517,9 +520,12 @@ class StockComparison extends Component{
                             <form onSubmit={(e) => this.clickedAdd2(e)}>
                                 <label>Stock ticker : </label>
                                 <select className="input" onChange={this.handleChange2}>
-                                    <option></option>
+                                    <option value="null"></option>
                                     <option value="AAPL">AAPL</option>
+                                    <option value="KO">KO</option>
                                     <option value="MSFT">MSFT</option>
+                                    <option value="RY.TO">RY.TO</option>
+                                    <option value="SHOP.TO">SHOP.TO</option>
                                 </select>
                                 <Button type="submit">
                                     Add
@@ -568,9 +574,12 @@ class StockComparison extends Component{
                             <form onSubmit={(e) => this.clickedAdd3(e)}>
                                 <label>Stock ticker : </label>
                                 <select className="input"  onChange={this.handleChange3}>
-                                    <option></option>
+                                    <option value="null"></option>
                                     <option value="AAPL">AAPL</option>
+                                    <option value="KO">KO</option>
                                     <option value="MSFT">MSFT</option>
+                                    <option value="RY.TO">RY.TO</option>
+                                    <option value="SHOP.TO">SHOP.TO</option>
                                 </select>
                                 <Button value="clickedAdd3" type="submit">
                                     Add

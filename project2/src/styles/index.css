@@ -13,9 +13,44 @@
     text-align: center;
 }
 
+.empty-space-language{
+    margin-top: 3%;
+}
 
 .home-title{
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+.language{
+    padding-right: 5%;
+}
+
+.language-button{
+    background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../images/langageFR.jpg);
+    background-size: 120px 50px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+
+    color: black;
+    font-weight: bolder;
+    float: right;
+    margin-right: 5%;
+
+    text-align: center;
+}
+
+.language-button:hover{
+    background-image: url(../images/langageFR.jpg);
+    background-size: 120px 50px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+
+    color: black;
+    font-weight: bolder;
+    float: right;
+    margin-right: 5%;
+
+    text-align: center;
 }

@@ -1,4 +1,8 @@
 
+.infosection-container{
+    display: table;
+}
+
 .infosection-description{
     text-align: justify;
     padding-top: 2%;
@@ -9,3 +13,4 @@
 .infosection-title{
     font-size: 1.5rem;
 }
+

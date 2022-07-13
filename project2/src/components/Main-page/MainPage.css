@@ -1,0 +1,80 @@
+
+.container-main-page{
+    display: flex;
+}
+
+.column-info-section{
+    text-align: center;
+    flex: 50%;
+}
+
+.column-lexicon{
+    flex: 50%;
+    text-align: center;
+}
+
+.empty-space-language{
+    margin-top: 3%;
+}
+
+.home-title{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.language{
+    padding-right: 5%;
+}
+
+.language-button-eng{
+    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(../../images/langageENG.jpg);
+    background-size: 120px 50px;
+    background-repeat: no-repeat;
+
+    color: black;
+    font-weight: bolder;
+    float: right;
+    margin-right: 5%;
+
+    text-align: center;
+}
+
+.language-button-eng:hover{
+    background-image: url(../../images/langageENG.jpg);
+    background-size: 120px 50px;
+    background-repeat: no-repeat;
+
+    color: black;
+    font-weight: bolder;
+    float: right;
+    margin-right: 5%;
+
+    text-align: center;
+}
+
+.language-button-fr{
+    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(../../images/langageFR.jpg);
+    background-size: 120px 50px;
+    background-repeat: no-repeat;
+
+    color: black;
+    font-weight: bolder;
+    float: right;
+    margin-right: 5%;
+
+    text-align: center;
+}
+
+.language-button-fr:hover{
+    background-image: url(../../images/langageFR.jpg);
+    background-size: 120px 50px;
+    background-repeat: no-repeat;
+
+    color: black;
+    font-weight: bolder;
+    float: right;
+    margin-right: 5%;
+
+    text-align: center;
+}

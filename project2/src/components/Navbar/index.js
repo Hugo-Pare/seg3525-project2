@@ -13,7 +13,7 @@ const Navbar = () => {
     <>
       <Nav>
         <NavLink to='/seg3525-project2'>
-          Guide de l'investisseur
+          Guide de l'Investisseur
         </NavLink>
         <Bars />
         <NavMenu>

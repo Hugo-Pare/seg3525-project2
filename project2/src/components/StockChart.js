@@ -47,7 +47,10 @@ class StockChart extends Component{
 
             // toggle
             validTicker: false,
-            buttonError: false
+            buttonError: false,
+
+            //test
+            tickerTest: ''
         }
     }
 
@@ -107,7 +110,12 @@ class StockChart extends Component{
     handleChange(e){
         e.preventDefault();
         let ticker = e.target.value.toUpperCase();
+        //console.log(ticker);
         this.setState({input: ticker});
+
+        //remove this
+        const tick = this.state.tickerTest;
+        console.log(tick);
     }
 
     handleInterval(e, value){
@@ -172,7 +180,7 @@ class StockChart extends Component{
             <>
                 <div className="stock-finder">
                     <form>
-                        <label className="ticker">Stock ticker :</label>
+                        <label className="stock-ticker">Stock ticker :</label>
                         <input className="input" onChange={(e) => this.handleChange(e)}></input>
                         <Button type="submit" onClick={(e) => this.findTicker(e)}>
                             Find
