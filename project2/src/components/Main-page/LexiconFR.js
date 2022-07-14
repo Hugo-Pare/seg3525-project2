@@ -14,15 +14,15 @@ class LexiconFR extends Component{
         return(
             <>
                 <div className="lexicon-title">
-                    <b>Lexique</b>
+                    <b>FAQ</b>
                 </div>
                 <div className="lexicon-description">
-                    &emsp;&emsp;Voici les définitions de plusieurs termes de finances. Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
-                    Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+                    &emsp;&emsp;Bienvenue à la section FAQ, dans cette section se trouvera plusieurs questions et réponses afin d'aider les utilisateurs à naviguer au travers de ce site Web efficacement. Il sera possible de trouver une liste de définitions de termes utilisée dans les autres pages, une description de l'utilisation des pages 'Analyser', 'Comparer' et 'Rechercher', puis en conseillant plusieurs articles afin de vous mener à un meilleur processus d'investissement disponible à la page 'Apprendre'.
+                    <br/>
+                    <br/>&emsp;&emsp;<b>Lexique:</b>
                     <br/>
                     <br/>
-                    &emsp;&emsp;Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
-                    Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+                    &emsp;&emsp;Comme le langage utilisé en finance peut être très complexe pour les nouveaux investisseurs, une liste de définitions de plusieurs termes sera fourni. Veuillez tenir compte que la liste de mots restera en anglais, car certains termes deviennent moins clair une fois traduit.
                 </div>
                 <div className="lexicon-list">
                     <div className="lexicon-box">
@@ -30,7 +30,7 @@ class LexiconFR extends Component{
                             <b>52 Week Range</b>
                         </div>
                         <div className="lexicon-box-description">
-                            Description - 52 Week Range
+                            Le '52 Week Range' indique l'écart du prix de l'action lors des derniers 52 semaines. On y trouve le prix le bas suivi du prix le plus élevé sur cette même période de temps.
                         </div>
                     </div>
 
@@ -39,7 +39,7 @@ class LexiconFR extends Component{
                             <b>Previous Close</b>
                         </div>
                         <div className="lexicon-box-description">
-                            Description - Previous Close
+                            Le 'Previous Close' indique le prix que l'action avait lors de la fermeture des marchés boursiers la journée précédente à 16h EST. 
                         </div>
                     </div>
 
@@ -48,7 +48,7 @@ class LexiconFR extends Component{
                             <b>Open</b>
                         </div>
                         <div className="lexicon-box-description">
-                            Description - Open
+                            Similaire à 'Previous Close', 'Open' signifie le prix de l'action lors de l'ouverture des marchés boursiers à 9h30 EST.
                         </div>
                     </div>
 
@@ -57,7 +57,16 @@ class LexiconFR extends Component{
                             <b>Ask</b>
                         </div>
                         <div className="lexicon-box-description">
-                            Description - Ask
+                            Le terme 'Ask' signifie le prix que les acheteurs demandent ainsi que le nombre d'acheteurs à ce moment présent. La vraie valeur d'une action se situe entre le prix des acheteurs et demandeurs.
+                        </div>
+                    </div>
+
+                    <div className="lexicon-box">
+                        <div className="lexicon-box-title">
+                            <b>Bid</b>
+                        </div>
+                        <div className="lexicon-box-description">
+                            Similaire à 'Ask', 'Bid' signifie le prix que les vendeurs demandent ainsi que le nombre de vendeurs à ce moment présent. La vraie valeur d'une action se situe entre le prix des acheteurs et demandeurs.
                         </div>
                     </div>
 
@@ -66,7 +75,7 @@ class LexiconFR extends Component{
                             <b>Day's Range</b>
                         </div>
                         <div className="lexicon-box-description">
-                            Description - Day's Range
+                            Similaire au '52 Week Range', le 'Day's Range' montre l'écart du prix lors de la journée ou celle précédente si les marchés boursiers sont fermés.
                         </div>
                     </div>
 
@@ -75,16 +84,7 @@ class LexiconFR extends Component{
                             <b>1 year Target Estimate</b>
                         </div>
                         <div className="lexicon-box-description">
-                            Description - 1 year Target Estimate
-                        </div>
-                    </div>
-
-                    <div className="lexicon-box">
-                        <div className="lexicon-box-title">
-                            <b>Average Volume</b>
-                        </div>
-                        <div className="lexicon-box-description">
-                            Description - Average Volume (3 months)
+                            Le '1 year Target Estimate' est un estimé du prix futur d'une action dans un an. Cet estimé est fait par un regroupement d'analystes, mais il ne faut pas se fié entièrement à leur expertise.
                         </div>
                     </div>
 
@@ -93,7 +93,16 @@ class LexiconFR extends Component{
                             <b>Today's Volume</b>
                         </div>
                         <div className="lexicon-box-description">
-                            Description - Today's Volume
+                            Le terme 'Today's Volume' montre le nombre d'achat et de vente d'une action particulière. Si une action est vendue 50 fois et achetée 50 fois, le volume sera de 100.
+                        </div>
+                    </div>
+
+                    <div className="lexicon-box">
+                        <div className="lexicon-box-title">
+                            <b>Average Volume</b>
+                        </div>
+                        <div className="lexicon-box-description">
+                            Comme le 'Volume' est le nombre d'achat et de vente d'une action particulière, le 'Average Volume' calcule la moyenne du 'Volume' des trois derniers mois.
                         </div>
                     </div>
 
@@ -102,7 +111,7 @@ class LexiconFR extends Component{
                             <b>Market Cap</b>
                         </div>
                         <div className="lexicon-box-description">
-                            Description - Market Cap
+                            Le 'Market Cap' d'une companie est une manière de calculer la valeur de la compagnie. Le calcule est simple, on mutliplie le nombre d'actions de la compagnie et le prix de l'action.
                         </div>
                     </div>
 
@@ -111,7 +120,7 @@ class LexiconFR extends Component{
                             <b>Earnings Per Share (EPS)</b>
                         </div>
                         <div className="lexicon-box-description">
-                            Description - Earnings Per Share (TTM)
+                            Le 'Earnings Per Share' d'une acion est le nombre de profit que la compagnie fait par rapport à la valeur d'une action. Un 'EPS' plus haut ne veut rien dire par lui-même, il faut le comparer au prix de l'action, voir le 'Price-to-Earning Ratio'.
                         </div>
                     </div>
 
@@ -120,7 +129,7 @@ class LexiconFR extends Component{
                             <b>Forward Dividend</b>
                         </div>
                         <div className="lexicon-box-description">
-                            Description - Forward Dividend
+                            Le 'Forward Dividend' signifie le montant d'argent qu'une compagnie prévoit versé par action lors de la prochaine année. On y trouve souvent un 'Dividend Yield' qui montre les dividendes versées en pourcentage de la valeur de l'action.
                         </div>
                     </div>
 
@@ -129,7 +138,7 @@ class LexiconFR extends Component{
                             <b>Price-to-Earnings Ratio</b>
                         </div>
                         <div className="lexicon-box-description">
-                            Description - Price-to-Earnings Ratio
+                            Le 'Price-to-Earnings Ratio' montre le ratio entre le prix d'une action et le nombre de profit que cette action rapporte. En général, plus une action à un 'Price-to-Earnings' bas, plus il sera profitable pour l'acheteur.
                         </div>
                     </div>
 
@@ -138,7 +147,7 @@ class LexiconFR extends Component{
                             <b>Beta</b>
                         </div>
                         <div className="lexicon-box-description">
-                            Description - Beta (5y monthly)
+                            Le 'Beta' est un indicateur de volatilité d'une action. Un 'Beta' inférieur à 1 signifie que l'action est moins volatile que les marchés boursieurs et un 'Beta' supérieur à 1 signifie que l'action est plus volatile.
                         </div>
                     </div>
 
@@ -147,7 +156,7 @@ class LexiconFR extends Component{
                             <b>Earnings Date</b>
                         </div>
                         <div className="lexicon-box-description">
-                            Description - Earnings Date
+                            Le 'Earnings Date' est la date que la compagnie va présenter ses profits et revenus au public, cela influence les indicateurs 'EPS' et du même fait le 'Price-to-Earnings Ratio'.
                         </div>
                     </div>
 
@@ -156,9 +165,39 @@ class LexiconFR extends Component{
                             <b>Ex-Dividend Date</b>
                         </div>
                         <div className="lexicon-box-description">
-                            Description - Ex-Dividend Date
+                            Le 'Ex-Dividend Date' est la date limite qu'un investisseur doit possédé une action avant qu'il soit versé les dividendes. Tenir en compte que les dividendes sont versées, en général, un mois après le 'Ex-Dividend Date'.
                         </div>
                     </div>
+
+                    <div className="lexicon-description">
+                        <br/>
+                        &emsp;&emsp;<b>Apprendre:</b>
+                        <br/>
+                        <br/>
+                        &emsp;&emsp;Apprendre page description
+                        <br/>
+                        <br/>
+                        &emsp;&emsp;<b>Analyser:</b>
+                        <br/>
+                        <br/>
+                        &emsp;&emsp;Analyser page description
+                        <br/>
+                        <br/>
+                        &emsp;&emsp;<b>Comparer:</b>
+                        <br/>
+                        <br/>
+                        &emsp;&emsp;Comparer page description
+                        <br/>
+                        <br/>
+                        &emsp;&emsp;<b>Rechercher:</b>
+                        <br/>
+                        <br/>
+                        &emsp;&emsp;Rechercher page description
+                        <br/>
+                        <br/>
+                    </div>
+
+                    <div className="empty-space"></div>
                 </div>
             </>
         )

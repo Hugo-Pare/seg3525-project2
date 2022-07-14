@@ -14,7 +14,7 @@ class LexiconENG extends Component{
         return(
             <>
                 <div className="lexicon-title">
-                    <b>Lexicon</b>
+                    <b>FAQ</b>
                 </div>
                 <div className="lexicon-description">
                     &emsp;&emsp;Here are some defitions of financial terms. Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
@@ -58,6 +58,15 @@ class LexiconENG extends Component{
                         </div>
                         <div className="lexicon-box-description">
                             Description - Ask
+                        </div>
+                    </div>
+
+                    <div className="lexicon-box">
+                        <div className="lexicon-box-title">
+                            <b>Bid</b>
+                        </div>
+                        <div className="lexicon-box-description">
+                            Description - Bid
                         </div>
                     </div>
 
