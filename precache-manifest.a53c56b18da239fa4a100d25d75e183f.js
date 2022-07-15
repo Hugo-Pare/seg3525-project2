@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "9b33204a7e14e1309eda",
-    "url": "/seg3525-project2/static/css/main.3f9975f3.chunk.css"
+    "revision": "1fe47e79526ef13e3c77",
+    "url": "/seg3525-project2/static/css/main.63e96e6b.chunk.css"
   },
   {
-    "revision": "9b33204a7e14e1309eda",
-    "url": "/seg3525-project2/static/js/main.494cb610.chunk.js"
+    "revision": "1fe47e79526ef13e3c77",
+    "url": "/seg3525-project2/static/js/main.dc695ee2.chunk.js"
   },
   {
-    "revision": "d4bf314dc1171e936a34",
-    "url": "/seg3525-project2/static/js/runtime~main.26307c52.js"
+    "revision": "b3ce71f4dd6007a9a454",
+    "url": "/seg3525-project2/static/js/runtime~main.2ca32542.js"
   },
   {
-    "revision": "385469dd1c4e4d5a191f",
-    "url": "/seg3525-project2/static/js/2.7006859d.chunk.js"
+    "revision": "e386130e4f221baa1623",
+    "url": "/seg3525-project2/static/js/2.bff9a96f.chunk.js"
   },
   {
-    "revision": "7da80a4b2c1fc8dd018d",
-    "url": "/seg3525-project2/static/js/3.e3b4af8e.chunk.js"
+    "revision": "e8509cf3d4567de2286b",
+    "url": "/seg3525-project2/static/js/3.de8fb8d5.chunk.js"
   },
   {
     "revision": "b32e1401954cce4328decd0b7c4e4b89",
@@ -56,6 +56,14 @@ self.__precacheManifest = [
     "url": "/seg3525-project2/static/media/aapl.cf11ebcc.png"
   },
   {
+    "revision": "508f9d6005f8cbfcf17382c651957136",
+    "url": "/seg3525-project2/static/media/bce.to.508f9d60.png"
+  },
+  {
+    "revision": "1e2e39625e53fbe46eba74fef027fdf4",
+    "url": "/seg3525-project2/static/media/hd.1e2e3962.png"
+  },
+  {
     "revision": "2056478abd8d953212a8401684ba3d64",
     "url": "/seg3525-project2/static/media/ko.2056478a.png"
   },
@@ -72,7 +80,11 @@ self.__precacheManifest = [
     "url": "/seg3525-project2/static/media/shop.to.3036d9ca.png"
   },
   {
-    "revision": "ab495f76b434c320f0cc5a5d097023d5",
+    "revision": "44680f1ab2215ec9cf735f7850101cfd",
+    "url": "/seg3525-project2/static/media/su.to.44680f1a.png"
+  },
+  {
+    "revision": "ffd5a081e2507f60f4183032ab1546c8",
     "url": "/seg3525-project2/index.html"
   }
 ];
