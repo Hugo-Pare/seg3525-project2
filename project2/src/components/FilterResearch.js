@@ -12,11 +12,18 @@ class FilterResearch extends Component{
         super(props);
         this.state = {
             markets: ['CAN','US'],
-            sectors: ['f','k','p'],
+            sectors: ['f','k','p','u','v','y','b','e','i','c'],
             //sectors
-            checkedK: true,
+            checkedB: true,
+            checkedC: true,
+            checkedE: true,
             checkedF: true,
+            checkedI: true,
+            checkedK: true,
             checkedP: true,
+            checkedU: true,
+            checkedV: true,
+            checkedY: true,
             // markets
             checkedUS: true,
             checkedCAN: true,
@@ -25,19 +32,40 @@ class FilterResearch extends Component{
         this.handleCheckCAN = this.handleCheckCAN.bind(this);
         this.handleCheckUS = this.handleCheckUS.bind(this);
         // sectors
-        this.handleCheckK = this.handleCheckK.bind(this);
+        this.handleCheckB = this.handleCheckB.bind(this);
+        this.handleCheckC = this.handleCheckC.bind(this);
+        this.handleCheckE = this.handleCheckE.bind(this);
         this.handleCheckF = this.handleCheckF.bind(this);
+        this.handleCheckI = this.handleCheckI.bind(this);
+        this.handleCheckK = this.handleCheckK.bind(this);
         this.handleCheckP = this.handleCheckP.bind(this);
+        this.handleCheckU = this.handleCheckU.bind(this);
+        this.handleCheckV = this.handleCheckV.bind(this);
+        this.handleCheckY = this.handleCheckY.bind(this);
     }
 
     returnSector(value){
         switch(value){
+            case 'b':
+                return "Materials";
+            case 'b':
+                return "Comm. Services";
+            case 'e':
+                return "Energy";
             case 'f':
                 return "Financials";
+            case 'i':
+                return "Industrials";
             case 'k':
                 return "Info. Technology";
             case 'p':
-                return "Consumer Staples";
+                return "Cons. Staples";
+            case 'u':
+                return "Utilities";
+            case 'v':
+                return "Health Care";
+            case 'y':
+                return "Cons. Discretionary";
         }
     }
 
@@ -87,6 +115,75 @@ class FilterResearch extends Component{
         }
     }
 
+    handleCheckB(e){
+        this.setState({checkedB : e.target.checked});
+
+        // add or remove 'b' from array of sectors
+        if(e.target.checked === false){
+            var array = this.state.sectors;
+
+            const index = array.indexOf('b');
+            array.splice(index, 1);
+            console.log('sectors : ' + array);
+            
+            this.setState({sectors : array});
+        }
+        else if(e.target.checked === true){
+            var array = this.state.sectors;
+
+            array.push('b');
+            console.log('sectors : ' + array);
+            
+            this.setState({sectors : array});
+        }
+    }
+
+    handleCheckC(e){
+        this.setState({checkedC : e.target.checked});
+
+        // add or remove 'c' from array of sectors
+        if(e.target.checked === false){
+            var array = this.state.sectors;
+
+            const index = array.indexOf('c');
+            array.splice(index, 1);
+            console.log('sectors : ' + array);
+            
+            this.setState({sectors : array});
+        }
+        else if(e.target.checked === true){
+            var array = this.state.sectors;
+
+            array.push('c');
+            console.log('sectors : ' + array);
+            
+            this.setState({sectors : array});
+        }
+    }
+
+    handleCheckE(e){
+        this.setState({checkedE : e.target.checked});
+
+        // add or remove 'e' from array of sectors
+        if(e.target.checked === false){
+            var array = this.state.sectors;
+
+            const index = array.indexOf('e');
+            array.splice(index, 1);
+            console.log('sectors : ' + array);
+            
+            this.setState({sectors : array});
+        }
+        else if(e.target.checked === true){
+            var array = this.state.sectors;
+
+            array.push('e');
+            console.log('sectors : ' + array);
+            
+            this.setState({sectors : array});
+        }
+    }
+
     handleCheckF(e){
         this.setState({checkedF : e.target.checked});
 
@@ -104,6 +201,29 @@ class FilterResearch extends Component{
             var array = this.state.sectors;
 
             array.push('f');
+            console.log('sectors : ' + array);
+            
+            this.setState({sectors : array});
+        }
+    }
+
+    handleCheckI(e){
+        this.setState({checkedI : e.target.checked});
+
+        // add or remove 'i' from array of sectors
+        if(e.target.checked === false){
+            var array = this.state.sectors;
+
+            const index = array.indexOf('i');
+            array.splice(index, 1);
+            console.log('sectors : ' + array);
+            
+            this.setState({sectors : array});
+        }
+        else if(e.target.checked === true){
+            var array = this.state.sectors;
+
+            array.push('i');
             console.log('sectors : ' + array);
             
             this.setState({sectors : array});
@@ -156,13 +276,79 @@ class FilterResearch extends Component{
         }
     }
 
+    handleCheckU(e){
+        this.setState({checkedU : e.target.checked});
+
+        // add or remove 'u' from array of sectors
+        if(e.target.checked === false){
+            var array = this.state.sectors;
+
+            const index = array.indexOf('u');
+            array.splice(index, 1);
+            console.log('sectors : ' + array);
+            
+            this.setState({sectors : array});
+        }
+        else if(e.target.checked === true){
+            var array = this.state.sectors;
+
+            array.push('u');
+            console.log('sectors : ' + array);
+            
+            this.setState({sectors : array});
+        }
+    }
+
+    handleCheckV(e){
+        this.setState({checkedV : e.target.checked});
+
+        // add or remove 'v' from array of sectors
+        if(e.target.checked === false){
+            var array = this.state.sectors;
+
+            const index = array.indexOf('v');
+            array.splice(index, 1);
+            console.log('sectors : ' + array);
+            
+            this.setState({sectors : array});
+        }
+        else if(e.target.checked === true){
+            var array = this.state.sectors;
+
+            array.push('v');
+            console.log('sectors : ' + array);
+            
+            this.setState({sectors : array});
+        }
+    }
+
+    handleCheckY(e){
+        this.setState({checkedY : e.target.checked});
+
+        // add or remove 'y' from array of sectors
+        if(e.target.checked === false){
+            var array = this.state.sectors;
+
+            const index = array.indexOf('y');
+            array.splice(index, 1);
+            console.log('sectors : ' + array);
+            
+            this.setState({sectors : array});
+        }
+        else if(e.target.checked === true){
+            var array = this.state.sectors;
+
+            array.push('y');
+            console.log('sectors : ' + array);
+            
+            this.setState({sectors : array});
+        }
+    }
+
     render(){
 
         const CAN = <img className="flag" src={require('../images/CAN.svg')} width="50" height="30"/>
         const US = <img className="flag" src={require('../images/US.webp')} width="50" height="30"/>
-
-        const aaplURL = <img src={require('../images/aapl.png')} width="50" height="50"/>;
-        const msftURL = <img src={require('../images/msft.png')} width="50" height="50"/>;
 
         const cells = [];
 
@@ -219,31 +405,31 @@ class FilterResearch extends Component{
                             <input type="checkbox" id="k" checked={this.state.checkedK} onChange={this.handleCheckK}></input>
                             <label className="option">Information Technology</label><br/>
 
-                            <input type="checkbox" checked="false"></input>
+                            <input type="checkbox" id="v" checked={this.state.checkedV} onChange={this.handleCheckV}></input>
                             <label className="option">Health Care</label><br/>
 
                             <input type="checkbox" id="f" checked={this.state.checkedF} onChange={this.handleCheckF}></input>
                             <label className="option">Financials</label><br/>
 
-                            <input type="checkbox" checked="false"></input>
+                            <input type="checkbox" id="y" checked={this.state.checkedY} onChange={this.handleCheckY}></input>
                             <label className="option">Consumer Discretionary</label><br/>
 
-                            <input type="checkbox" checked="false"></input>
+                            <input type="checkbox" id="c" checked={this.state.checkedC} onChange={this.handleCheckC}></input>
                             <label className="option">Communication Services</label><br/>
 
-                            <input type="checkbox" checked="false"></input>
+                            <input type="checkbox" id="i" checked={this.state.checkedI} onChange={this.handleCheckI}></input>
                             <label className="option">Industrials</label><br/>
 
                             <input type="checkbox" id="p" checked={this.state.checkedP} onChange={this.handleCheckP}></input>
                             <label className="option">Consumer Staples</label><br/>
 
-                            <input type="checkbox" checked="false"></input>
+                            <input type="checkbox" id="e" checked={this.state.checkedE} onChange={this.handleCheckE}></input>
                             <label className="option">Energy</label><br/>
 
-                            <input type="checkbox" checked="false"></input>
+                            <input type="checkbox" id="u" checked={this.state.checkedU} onChange={this.handleCheckU}></input>
                             <label className="option">Utilities</label><br/>
 
-                            <input type="checkbox" checked="false"></input>
+                            <input type="checkbox" id="b" checked={this.state.checkedB} onChange={this.handleCheckB}></input>
                             <label className="option">Materials</label><br/>
 
                             <div className="empty-space-4"></div>
@@ -274,20 +460,7 @@ class FilterResearch extends Component{
                         <div className="cell"></div>
                         <div className="cell"></div>
                         <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
+                        {/* <div className="cell"></div> */}
                     </div>
                 </div>
             </>

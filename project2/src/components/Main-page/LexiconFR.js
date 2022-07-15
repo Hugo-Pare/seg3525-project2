@@ -14,10 +14,10 @@ class LexiconFR extends Component{
         return(
             <>
                 <div className="lexicon-title">
-                    <b>FAQ</b>
+                    <b>Guide</b>
                 </div>
                 <div className="lexicon-description">
-                    &emsp;&emsp;Bienvenue à la section FAQ, dans cette section se trouvera plusieurs questions et réponses afin d'aider les utilisateurs à naviguer au travers de ce site Web efficacement. Il sera possible de trouver une liste de définitions de termes utilisée dans les autres pages, une description de l'utilisation des pages 'Analyser', 'Comparer' et 'Rechercher', puis en conseillant plusieurs articles afin de vous mener à un meilleur processus d'investissement disponible à la page 'Apprendre'.
+                    &emsp;&emsp;Bienvenue à la section Guide, dans cette section se trouvera des explications afin d'aider les utilisateurs à naviguer au travers de ce site Web efficacement. Il sera possible de trouver une liste de définitions de termes utilisée dans les autres pages, une description de l'utilisation des pages 'Analyser', 'Comparer' et 'Rechercher', puis en conseillant plusieurs articles afin de vous mener à un meilleur processus d'investissement disponible à la page 'Apprendre'.
                     <br/>
                     <br/>&emsp;&emsp;<b>Lexique:</b>
                     <br/>
@@ -174,25 +174,25 @@ class LexiconFR extends Component{
                         &emsp;&emsp;<b>Apprendre:</b>
                         <br/>
                         <br/>
-                        &emsp;&emsp;Apprendre page description
+                        &emsp;&emsp;Dans la section 'Apprendre' du site Web, plusieurs articles seront disponibles pour les utilisateurs. Les titres des articles sont : Rotation des secteurs, Indicateur de 'Spread' à Haut Rendement et Est-ce que le '200-day Moving Average' est un indicateur fiable?
                         <br/>
                         <br/>
                         &emsp;&emsp;<b>Analyser:</b>
                         <br/>
                         <br/>
-                        &emsp;&emsp;Analyser page description
+                        &emsp;&emsp;Dans la section 'Analyser' du site Web, les utilisateurs peuvent entrer le 'ticker' d'une compagnie dans la barre de recherche et recevoir beaucoup d'information à propos de l'action de la compagnie. Veuillez tenir compte que pas tous les compagnies seront disponibles, vous pouvez faire un tour à la section 'Rechercher' pour voir les 'tickers' disponibles.
                         <br/>
                         <br/>
                         &emsp;&emsp;<b>Comparer:</b>
                         <br/>
                         <br/>
-                        &emsp;&emsp;Comparer page description
+                        &emsp;&emsp;Dans la section 'Comparer' du site Web, les utilisateurs peuvent comparer les informations de plusieurs (maximum de 3 compagnies) actions côte-à-côte. Pour choisir la compagnie, il faut entrer le 'ticker' de la compagnie. Veuillez tenir compte que pas tous les compagnies seront disponibles, vous pouvez faire un tour à la section 'Rechercher' pour voir les 'tickers' disponibles.
                         <br/>
                         <br/>
                         &emsp;&emsp;<b>Rechercher:</b>
                         <br/>
                         <br/>
-                        &emsp;&emsp;Rechercher page description
+                        &emsp;&emsp;Dans la section 'Rechercher' du site Web, les utilisateurs peuvent rechercher plusieurs compagnies et leur 'ticker'. Plusieurs filtres seront mis à leur disposition pour filtrer par rapport aux secteurs et marchés.
                         <br/>
                         <br/>
                     </div>
