@@ -12,9 +12,8 @@ class FilterResearch extends Component{
         super(props);
         this.state = {
             markets: ['CAN','US'],
-            sectors: ['f','k','p','u','v','y','b','e','i','c'],
+            sectors: ['f','k','p','u','v','y','e','i','c'],
             //sectors
-            checkedB: true,
             checkedC: true,
             checkedE: true,
             checkedF: true,
@@ -32,7 +31,6 @@ class FilterResearch extends Component{
         this.handleCheckCAN = this.handleCheckCAN.bind(this);
         this.handleCheckUS = this.handleCheckUS.bind(this);
         // sectors
-        this.handleCheckB = this.handleCheckB.bind(this);
         this.handleCheckC = this.handleCheckC.bind(this);
         this.handleCheckE = this.handleCheckE.bind(this);
         this.handleCheckF = this.handleCheckF.bind(this);
@@ -46,9 +44,7 @@ class FilterResearch extends Component{
 
     returnSector(value){
         switch(value){
-            case 'b':
-                return "Materials";
-            case 'b':
+            case 'c':
                 return "Comm. Services";
             case 'e':
                 return "Energy";
@@ -112,29 +108,6 @@ class FilterResearch extends Component{
             console.log('markets : ' + array);
             
             this.setState({markets : array});
-        }
-    }
-
-    handleCheckB(e){
-        this.setState({checkedB : e.target.checked});
-
-        // add or remove 'b' from array of sectors
-        if(e.target.checked === false){
-            var array = this.state.sectors;
-
-            const index = array.indexOf('b');
-            array.splice(index, 1);
-            console.log('sectors : ' + array);
-            
-            this.setState({sectors : array});
-        }
-        else if(e.target.checked === true){
-            var array = this.state.sectors;
-
-            array.push('b');
-            console.log('sectors : ' + array);
-            
-            this.setState({sectors : array});
         }
     }
 
@@ -429,9 +402,6 @@ class FilterResearch extends Component{
                             <input type="checkbox" id="u" checked={this.state.checkedU} onChange={this.handleCheckU}></input>
                             <label className="option">Utilities</label><br/>
 
-                            <input type="checkbox" id="b" checked={this.state.checkedB} onChange={this.handleCheckB}></input>
-                            <label className="option">Materials</label><br/>
-
                             <div className="empty-space-4"></div>
 
                             <label><b>Filter by Market</b></label>
@@ -450,16 +420,6 @@ class FilterResearch extends Component{
 
                         {cells}
                         
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
-                        <div className="cell"></div>
                         {/* <div className="cell"></div> */}
                     </div>
                 </div>

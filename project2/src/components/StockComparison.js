@@ -12,6 +12,7 @@ class StockComparison extends Component{
         this.state = {
             ticker1: '',
             validTicker1: false,
+            errorTicker1: false,
             stats1 : {
                 companyName: '',
                 weekRange: '',
@@ -34,6 +35,7 @@ class StockComparison extends Component{
             stock1: false,
             ticker2: '',
             validTicker2: false,
+            errorTicker2: false,
             stats2 : {
                 companyName: '',
                 weekRange: '',
@@ -56,6 +58,7 @@ class StockComparison extends Component{
             stock2: false,
             ticker3: '',
             validTicker3: false,
+            errorTicker3: false,
             stats3 : {
                 companyName: '',
                 weekRange: '',
@@ -88,7 +91,11 @@ class StockComparison extends Component{
 
         this.setState({stock1: true});
 
-        const tickerList = ["AAPL","KO","MSFT","RY.TO","SHOP.TO"]
+        const tickerList = []
+        for(const [index] of data.entries()){
+            tickerList.push(data[index].ticker);
+        }
+        
         const ticker = this.state.ticker1;
         console.log(ticker)
 
@@ -100,6 +107,7 @@ class StockComparison extends Component{
                 if(data[i].ticker === ticker){
                     // set info
                     this.setState({
+                        errorTicker1: false,
                         stats1: {
                             companyName: data[i].companyName,
                             weekRange: data[i].weekRange,
@@ -126,13 +134,16 @@ class StockComparison extends Component{
             
         }
         else{
-            this.setState({validTicker1: false});
+            this.setState({
+                validTicker1: false,
+                errorTicker1: true,
+            });
         }
     }
 
     handleChange1(e){
-        console.log(e.target.value);
-        const ticker = e.target.value;
+        e.preventDefault();
+        let ticker = e.target.value.toUpperCase();
         this.setState({ticker1 : ticker});
     }
 
@@ -142,7 +153,10 @@ class StockComparison extends Component{
 
         this.setState({stock2: true});
 
-        const tickerList = ["AAPL","KO","MSFT","RY.TO","SHOP.TO"]
+        const tickerList = []
+        for(const [index] of data.entries()){
+            tickerList.push(data[index].ticker);
+        }
         const ticker = this.state.ticker2;
         console.log(ticker)
 
@@ -154,6 +168,7 @@ class StockComparison extends Component{
                 if(data[i].ticker === ticker){
                     // set info
                     this.setState({
+                        errorTicker2: false,
                         stats2: {
                             companyName: data[i].companyName,
                             weekRange: data[i].weekRange,
@@ -180,13 +195,16 @@ class StockComparison extends Component{
             
         }
         else{
-            this.setState({validTicker2: false});
+            this.setState({
+                validTicker2: false,
+                errorTicker2: true,
+            });
         }
     }
 
     handleChange2(e){
-        console.log(e.target.value);
-        const ticker = e.target.value;
+        e.preventDefault();
+        let ticker = e.target.value.toUpperCase();
         this.setState({ticker2 : ticker});
     }
 
@@ -196,7 +214,11 @@ class StockComparison extends Component{
 
         this.setState({stock3: true});
 
-        const tickerList = ["AAPL","KO","MSFT","RY.TO","SHOP.TO"]
+        const tickerList = []
+        for(const [index] of data.entries()){
+            tickerList.push(data[index].ticker);
+        }
+
         const ticker = this.state.ticker3;
         console.log(ticker)
 
@@ -208,6 +230,7 @@ class StockComparison extends Component{
                 if(data[i].ticker === ticker){
                     // set info
                     this.setState({
+                        errorTicker3: false,
                         stats3: {
                             companyName: data[i].companyName,
                             weekRange: data[i].weekRange,
@@ -234,13 +257,16 @@ class StockComparison extends Component{
             
         }
         else{
-            this.setState({validTicker3: false});
+            this.setState({
+                validTicker3: false,
+                errorTicker3: true
+            });
         }
     }
 
     handleChange3(e){
-        console.log(e.target.value);
-        const ticker = e.target.value;
+        e.preventDefault();
+        let ticker = e.target.value.toUpperCase();
         this.setState({ticker3 : ticker});
     }
 
@@ -332,6 +358,10 @@ class StockComparison extends Component{
         const validTicker1 = this.state.validTicker1;
         const validTicker2 = this.state.validTicker2;
         const validTicker3 = this.state.validTicker3;
+
+        const errorTicker1 = this.state.errorTicker1;
+        const errorTicker2 = this.state.errorTicker2;
+        const errorTicker3 = this.state.errorTicker3;
 
         // info 1
         const companyName1 = this.state.stats1.companyName;
@@ -464,17 +494,11 @@ class StockComparison extends Component{
                         :
                             <form onSubmit={(e) => this.clickedAdd1(e)}>
                                 <label>Stock ticker : </label>
-                                <select className="input" onChange={this.handleChange1}>
-                                    <option value="null"></option>
-                                    <option value="AAPL">AAPL</option>
-                                    <option value="KO">KO</option>
-                                    <option value="MSFT">MSFT</option>
-                                    <option value="RY.TO">RY.TO</option>
-                                    <option value="SHOP.TO">SHOP.TO</option>
-                                </select>
+                                <input className="input-comparison" onChange={(e) => this.handleChange1(e)}></input>
                                 <Button type="submit">
                                     Add
                                 </Button>
+                                {errorTicker1 ? <div className="ticker-error">Ticker not found</div> : <div className="blank"></div>}
                             </form>
                         }
                     </div>
@@ -519,17 +543,11 @@ class StockComparison extends Component{
                         :
                             <form onSubmit={(e) => this.clickedAdd2(e)}>
                                 <label>Stock ticker : </label>
-                                <select className="input" onChange={this.handleChange2}>
-                                    <option value="null"></option>
-                                    <option value="AAPL">AAPL</option>
-                                    <option value="KO">KO</option>
-                                    <option value="MSFT">MSFT</option>
-                                    <option value="RY.TO">RY.TO</option>
-                                    <option value="SHOP.TO">SHOP.TO</option>
-                                </select>
+                                <input className="input-comparison" onChange={(e) => this.handleChange2(e)}></input>
                                 <Button type="submit">
                                     Add
                                 </Button>
+                                {errorTicker2 ? <div className="ticker-error">Ticker not found</div> : <div className="blank"></div>}
                             </form>
                         }
                     </div>
@@ -573,17 +591,11 @@ class StockComparison extends Component{
                         :
                             <form onSubmit={(e) => this.clickedAdd3(e)}>
                                 <label>Stock ticker : </label>
-                                <select className="input"  onChange={this.handleChange3}>
-                                    <option value="null"></option>
-                                    <option value="AAPL">AAPL</option>
-                                    <option value="KO">KO</option>
-                                    <option value="MSFT">MSFT</option>
-                                    <option value="RY.TO">RY.TO</option>
-                                    <option value="SHOP.TO">SHOP.TO</option>
-                                </select>
-                                <Button value="clickedAdd3" type="submit">
+                                <input className="input-comparison" onChange={(e) => this.handleChange3(e)}></input>
+                                <Button type="submit">
                                     Add
                                 </Button>
+                                {errorTicker3 ? <div className="ticker-error">Ticker not found</div> : <div className="blank"></div>}
                             </form>
                         }
                     </div>
