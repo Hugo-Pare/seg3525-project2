@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "7bf82a267465d0740802",
+    "revision": "9b33204a7e14e1309eda",
     "url": "/seg3525-project2/static/css/main.3f9975f3.chunk.css"
   },
   {
-    "revision": "7bf82a267465d0740802",
-    "url": "/seg3525-project2/static/js/main.85e9d9d1.chunk.js"
+    "revision": "9b33204a7e14e1309eda",
+    "url": "/seg3525-project2/static/js/main.494cb610.chunk.js"
   },
   {
-    "revision": "b37a1295ca65a37d8129",
-    "url": "/seg3525-project2/static/js/runtime~main.6f65e84e.js"
+    "revision": "d4bf314dc1171e936a34",
+    "url": "/seg3525-project2/static/js/runtime~main.26307c52.js"
   },
   {
-    "revision": "a6dd46d5d8b0c9271fb7",
-    "url": "/seg3525-project2/static/js/2.58b0ff31.chunk.js"
+    "revision": "385469dd1c4e4d5a191f",
+    "url": "/seg3525-project2/static/js/2.7006859d.chunk.js"
   },
   {
-    "revision": "2faf1c42da14c242889b",
-    "url": "/seg3525-project2/static/js/3.90d8b423.chunk.js"
+    "revision": "7da80a4b2c1fc8dd018d",
+    "url": "/seg3525-project2/static/js/3.e3b4af8e.chunk.js"
   },
   {
     "revision": "b32e1401954cce4328decd0b7c4e4b89",
@@ -44,10 +44,6 @@ self.__precacheManifest = [
     "url": "/seg3525-project2/static/media/US.25484a15.webp"
   },
   {
-    "revision": "cf11ebcc0a874e3ad3830431f7b0ab58",
-    "url": "/seg3525-project2/static/media/aapl.cf11ebcc.png"
-  },
-  {
     "revision": "4974825b5930ae56bd0a21a2e467cd80",
     "url": "/seg3525-project2/static/media/langageFR.4974825b.jpg"
   },
@@ -56,8 +52,16 @@ self.__precacheManifest = [
     "url": "/seg3525-project2/static/media/langageENG.442e42d8.jpg"
   },
   {
+    "revision": "cf11ebcc0a874e3ad3830431f7b0ab58",
+    "url": "/seg3525-project2/static/media/aapl.cf11ebcc.png"
+  },
+  {
     "revision": "2056478abd8d953212a8401684ba3d64",
     "url": "/seg3525-project2/static/media/ko.2056478a.png"
+  },
+  {
+    "revision": "bd939fac8f771c4f0f7777745f7d4a57",
+    "url": "/seg3525-project2/static/media/pfe.bd939fac.png"
   },
   {
     "revision": "878920b93f253d9acdd5a5655b782b02",
@@ -68,7 +72,7 @@ self.__precacheManifest = [
     "url": "/seg3525-project2/static/media/shop.to.3036d9ca.png"
   },
   {
-    "revision": "e440910b0a33a279e7bc96f71e4ca608",
+    "revision": "ab495f76b434c320f0cc5a5d097023d5",
     "url": "/seg3525-project2/index.html"
   }
 ];
