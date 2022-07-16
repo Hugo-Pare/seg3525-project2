@@ -180,13 +180,13 @@ class LexiconFR extends Component{
                         &emsp;&emsp;<b>Analyser:</b>
                         <br/>
                         <br/>
-                        &emsp;&emsp;Dans la section 'Analyser' du site Web, les utilisateurs peuvent entrer le 'ticker' d'une compagnie dans la barre de recherche et recevoir beaucoup d'information à propos de l'action de la compagnie. Veuillez tenir compte que pas tous les compagnies seront disponibles, vous pouvez faire un tour à la section 'Rechercher' pour voir les 'tickers' disponibles.
+                        &emsp;&emsp;Dans la section 'Analyser' du site Web, les utilisateurs peuvent entrer le 'ticker' d'une compagnie dans la barre de recherche et recevoir beaucoup d'information à propos de l'action de la compagnie. <b>Veuillez tenir compte que pas tous les compagnies seront disponibles, vous pouvez faire un tour à la section 'Rechercher' pour voir les 'tickers' disponibles.</b>
                         <br/>
                         <br/>
                         &emsp;&emsp;<b>Comparer:</b>
                         <br/>
                         <br/>
-                        &emsp;&emsp;Dans la section 'Comparer' du site Web, les utilisateurs peuvent comparer les informations de plusieurs (maximum de 3 compagnies) actions côte-à-côte. Pour choisir la compagnie, il faut entrer le 'ticker' de la compagnie. Veuillez tenir compte que pas tous les compagnies seront disponibles, vous pouvez faire un tour à la section 'Rechercher' pour voir les 'tickers' disponibles.
+                        &emsp;&emsp;Dans la section 'Comparer' du site Web, les utilisateurs peuvent comparer les informations de plusieurs (maximum de 3 compagnies) actions côte-à-côte. Pour choisir la compagnie, il faut entrer le 'ticker' de la compagnie. <b>Veuillez tenir compte que pas tous les compagnies seront disponibles, vous pouvez faire un tour à la section 'Rechercher' pour voir les 'tickers' disponibles.</b>
                         <br/>
                         <br/>
                         &emsp;&emsp;<b>Rechercher:</b>

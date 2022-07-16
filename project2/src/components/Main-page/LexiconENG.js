@@ -180,13 +180,13 @@ class LexiconENG extends Component{
                         &emsp;&emsp;<b>Analyze:</b>
                         <br/>
                         <br/>
-                        &emsp;&emsp;In the 'Analyze' section of the website, users can enter a company's 'ticker' in the search bar and receive lots of information about the company's stock. Please take into account that not all companies will be available, you can go to the 'Search' section to see the 'tickers' available.
+                        &emsp;&emsp;In the 'Analyze' section of the website, users can enter a company's 'ticker' in the search bar and receive lots of information about the company's stock. <b>Please take into account that not all companies will be available, you can go to the 'Search' section to see the 'tickers' available.</b>
                         <br/>
                         <br/>
                         &emsp;&emsp;<b>Compare:</b>
                         <br/>
                         <br/>
-                        &emsp;&emsp;In the 'Compare' section of the website, users can compare the information of several (maximum of 3 companies) stocks side-by-side. To choose the company, you must enter the 'ticker' of the company. Please take into account that not all companies will be available, you can go to the 'Search' section to see the 'tickers' available.
+                        &emsp;&emsp;In the 'Compare' section of the website, users can compare the information of several (maximum of 3 companies) stocks side-by-side. To choose the company, you must enter the 'ticker' of the company. <b>Please take into account that not all companies will be available, you can go to the 'Search' section to see the 'tickers' available.</b>
                         <br/>
                         <br/>
                         &emsp;&emsp;<b>Research:</b>
