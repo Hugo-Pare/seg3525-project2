@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "1fe47e79526ef13e3c77",
+    "revision": "bce98d1f6de130b55481",
     "url": "/seg3525-project2/static/css/main.63e96e6b.chunk.css"
   },
   {
-    "revision": "1fe47e79526ef13e3c77",
-    "url": "/seg3525-project2/static/js/main.dc695ee2.chunk.js"
+    "revision": "bce98d1f6de130b55481",
+    "url": "/seg3525-project2/static/js/main.1b9aac16.chunk.js"
   },
   {
-    "revision": "b3ce71f4dd6007a9a454",
-    "url": "/seg3525-project2/static/js/runtime~main.2ca32542.js"
+    "revision": "81cb99a40ccbeb40f50c",
+    "url": "/seg3525-project2/static/js/runtime~main.4285a5b1.js"
   },
   {
     "revision": "e386130e4f221baa1623",
     "url": "/seg3525-project2/static/js/2.bff9a96f.chunk.js"
   },
   {
-    "revision": "e8509cf3d4567de2286b",
-    "url": "/seg3525-project2/static/js/3.de8fb8d5.chunk.js"
+    "revision": "242f9cb65021bb3dbf9b",
+    "url": "/seg3525-project2/static/js/3.5b5b5cc8.chunk.js"
   },
   {
     "revision": "b32e1401954cce4328decd0b7c4e4b89",
@@ -60,12 +60,28 @@ self.__precacheManifest = [
     "url": "/seg3525-project2/static/media/bce.to.508f9d60.png"
   },
   {
+    "revision": "f0b389257ee8e494a8c9fa2bf1c9625b",
+    "url": "/seg3525-project2/static/media/cost.f0b38925.png"
+  },
+  {
+    "revision": "3e26049d9396f49912688a986b4027b8",
+    "url": "/seg3525-project2/static/media/googl.3e26049d.png"
+  },
+  {
     "revision": "1e2e39625e53fbe46eba74fef027fdf4",
     "url": "/seg3525-project2/static/media/hd.1e2e3962.png"
   },
   {
+    "revision": "ab67f37ef5a5da694f2ba94111701dfd",
+    "url": "/seg3525-project2/static/media/jpm.ab67f37e.png"
+  },
+  {
     "revision": "2056478abd8d953212a8401684ba3d64",
     "url": "/seg3525-project2/static/media/ko.2056478a.png"
+  },
+  {
+    "revision": "65138dbd196569257a0f3bf9db3345de",
+    "url": "/seg3525-project2/static/media/nke.65138dbd.png"
   },
   {
     "revision": "bd939fac8f771c4f0f7777745f7d4a57",
@@ -84,7 +100,23 @@ self.__precacheManifest = [
     "url": "/seg3525-project2/static/media/su.to.44680f1a.png"
   },
   {
-    "revision": "ffd5a081e2507f60f4183032ab1546c8",
+    "revision": "67328fdb1c376e7e5d35671bdf27c61a",
+    "url": "/seg3525-project2/static/media/t.67328fdb.png"
+  },
+  {
+    "revision": "172487e8a26db90b879877b350402e26",
+    "url": "/seg3525-project2/static/media/t.to.172487e8.png"
+  },
+  {
+    "revision": "0ee8b439e68db760e476737bc0a8c68c",
+    "url": "/seg3525-project2/static/media/wmt.0ee8b439.png"
+  },
+  {
+    "revision": "07d07582810fb2070d9cc1353499889f",
+    "url": "/seg3525-project2/static/media/xom.07d07582.png"
+  },
+  {
+    "revision": "ed0a10286759b62a393d7ed958e0dc33",
     "url": "/seg3525-project2/index.html"
   }
 ];
